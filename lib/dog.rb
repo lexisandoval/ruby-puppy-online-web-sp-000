@@ -17,6 +17,7 @@ class Dog
     array.each do |dog|
       array.delete
     end
+    array
   end
 
   def self.print
