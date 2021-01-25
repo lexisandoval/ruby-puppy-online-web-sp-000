@@ -14,7 +14,12 @@ class Dog
   end
 
   def self.clear_all
-    
+    @@all.each do |dog|
+      @@all.pop!
+    end
+  end
+
+  def self.print
   end
 
 end
