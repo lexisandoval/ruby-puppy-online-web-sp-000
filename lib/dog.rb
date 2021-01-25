@@ -13,11 +13,8 @@ class Dog
     @@all
   end
 
-  def self.clear_all(array)
-    array.each do |dog|
-      array.delete
-    end
-    array
+  def self.clear_all
+    
   end
 
   def self.print
