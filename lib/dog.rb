@@ -13,9 +13,9 @@ class Dog
     @@all
   end
 
-  def self.clear_all
-    @@all.each do |dog|
-      @@all.delete
+  def self.clear_all(array)
+    array.each do |dog|
+      array.delete
     end
   end
 
